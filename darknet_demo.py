@@ -255,7 +255,7 @@ def runOnVideo(net, meta, vid_source, thresh=.8, hier_thresh=.5, nms=.45):
         count += 1
     
 if __name__ == "__main__":
-    net = load_net("yolov2-tiny.cfg", "yolov2-tiny_14000_1.weights", 0)
+    net = load_net("yolov2-tiny.cfg", "yolov2-tiny.weights", 0)
     meta = load_meta("voc.data")
     vid_source = 0
     runOnVideo(net, meta, vid_source)    
