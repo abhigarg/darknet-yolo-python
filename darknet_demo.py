@@ -248,7 +248,7 @@ def runOnVideo(net, meta, vid_source, thresh=.8, hier_thresh=.5, nms=.45):
                     cv2.rectangle(frame, (x1, y1), (x2, y2), classes_box_colors[i], 2)
                     cv2.putText(frame, meta.names[i], (x1, y1 - 20), 1, 1, classes_font_colors[i], 2, cv2.LINE_AA)
                             
-        cv2.imshow('gesture', frame)
+        cv2.imshow('output', frame)
         if cv2.waitKey(1) == ord('q'):
             break        
         # print res
