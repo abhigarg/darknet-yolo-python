@@ -14,5 +14,7 @@ To run the script the path to cfg, weights, data files must be provided as given
 
 Video source could be a webcam or a video file
 
+For more details check blogpost [here](https://abhigargblog.wordpress.com/2018/09/22/darknet-yolo-python/)
+
 
 
