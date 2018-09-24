@@ -3,7 +3,7 @@
 This script is an extension of original python [script](https://github.com/pjreddie/darknet/blob/master/python/darknet.py) included in darknet-yolo repo to run model inference on video frames.
 
 ## Requirements
-OpenCV for python - sudo pip install opencv-contrib-python
+OpenCV for python - `sudo pip install opencv-contrib-python`
 
 Build darknet as per steps given at https://pjreddie.com/darknet/yolo/ and copy the libdarknet.so file generated after successful build to the project folder. The .so file and this script should be in same directory or otherwise path to the .so file must be provided in the script.
 
